@@ -1,0 +1,77 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ******head**** */
+    .idc-head .idc-head-bg {
+        height: 215px;
+    }
+}
+
+@media (max-width: 699px) {
+    .idc-text-1 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    /* ******head**** */
+    .idc-head .idc-head-bg {
+        height: auto;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 12px;
+        padding-left: 17px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 40px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 6px;
+        height: 6px;
+    }
+    .idc-info p:first-child + ul li,
+    .idc-info p:first-child + p + ul li {
+        width: 100%;
+    }
+
+    /* *****skills*** */
+    .idc-skills .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .idc-skill {
+        width: 145px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .idc-skill-block {
+        margin-top: 0px;
+    }
+    /* *****footer*** */
+    .idc-ps {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

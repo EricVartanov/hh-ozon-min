@@ -1,0 +1,251 @@
+
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma-Bold.eot");
+    src: local("Tahoma Bold"), local("Tahoma-Bold"),
+        url(../fonts/Tahoma-Bold.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma-Bold.woff2) format("woff2"),
+        url(../fonts/Tahoma-Bold.woff) format("woff"),
+        url(../fonts/Tahoma-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma.eot");
+    src: local("Tahoma"), url(../fonts/Tahoma.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma.woff2) format("woff2"),
+        url(../fonts/Tahoma.woff) format("woff"),
+        url(../fonts/Tahoma.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img,
+svg {
+    width: 100%;
+    display: block;
+}
+
+.idc-section {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.idc-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.idc-container {
+    margin: 0 auto;
+    max-width: 610px;
+}
+
+.idc-bgwrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.idc-text-1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #001a34;
+}
+.idc-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #005bff;
+}
+/* **************head***************** */
+.idc-head .idc-container {
+    padding-top: 15px;
+}
+/* **************about***************** */
+.idc-about .idc-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.idc-about .idc-text-1 {
+    max-width: 560px;
+}
+.idc-about .idc-text-1 + .idc-text-1 {
+    margin-top: 15px;
+}
+/* *************info************** */
+.idc-info .idc-container {
+    padding-bottom: 30px;
+}
+
+.idc-info p {
+    margin: 0;
+}
+.idc-info p:not(:first-child) {
+    margin-top: 30px;
+}
+
+.idc-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.idc-info ul li {
+    position: relative;
+    font-style: normal;
+    padding-left: 17px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #001a34;
+    margin-top: 16px;
+}
+.idc-info p strong {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #005bff;
+}
+.idc-info ul li > span {
+    margin-top: 15px;
+    display: block;
+    font-weight: 700;
+}
+.idc-info ul li span + span {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.idc-info ul li::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #001a34;
+}
+
+.idc-info p:first-child + ul li::before {
+    display: none;
+}
+.idc-info p:first-child strong {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #005bff;
+}
+.idc-info p:first-child + ul span,
+.idc-info p:first-child + p + ul {
+    margin: 0;
+    display: block;
+    width: 32px;
+    margin-right: 20px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+.idc-info p:first-child + ul li,
+.idc-info p:first-child + p + ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15px;
+    width: 90%;
+}
+.idc-info p:first-child + ul + li + .idc-info p > strong {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #005bff;
+}
+
+/* ***********************skills****************** */
+.idc-skills .idc-container {
+    padding-bottom: 30px;
+}
+.idc-skill-block {
+    margin-top: 20px;
+}
+.idc-skill {
+    width: 145px;
+    margin-left: 10px;
+}
+.idc-skill:first-child {
+    margin-left: 0;
+}
+.idc-skill:last-child .idc-text-1 {
+    width: 100%;
+}
+.idc-skill .idc-icon {
+    width: 24px;
+}
+.idc-skill .idc-text-1 {
+    margin-top: 10px;
+    width: 50%;
+}
+
+/* ***********************blue****************** */
+.idc-blue .idc-container {
+    height: 80px;
+}
+.idc-blue .idc-bgwrapper {
+    background: -webkit-gradient(linear, left top, right top, from(#005cff), to(#009eff));
+    background: -o-linear-gradient(left, #005cff 0%, #009eff 100%);
+    background: linear-gradient(90deg, #005cff 0%, #009eff 100%);
+}
+
+/* ***********************footer****************** */
+.idc-footer .idc-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.idc-ps {
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5e778f;
+}
