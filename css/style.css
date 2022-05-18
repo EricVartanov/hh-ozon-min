@@ -208,7 +208,7 @@ svg {
 }
 .idc-skill {
     width: 145px;
-    margin-left: 10px;
+    margin-left: auto;
 }
 .idc-skill:first-child {
     margin-left: 0;

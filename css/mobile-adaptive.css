@@ -28,7 +28,7 @@
     }
     /* ******info**** */
     .idc-info .idc-container {
-        padding-top: 40px;
+        padding-top: 0;
         padding-bottom: 0;
     }
     .idc-info p > strong {
@@ -62,12 +62,20 @@
     }
 
     .idc-skill {
-        width: 145px;
-        margin-left: 0px;
+        width: 50%;
+        margin-left: auto;
         margin-top: 20px;
     }
     .idc-skill-block {
         margin-top: 0px;
+    }
+    .idc-skill .idc-text-1{
+        width: auto;
+        max-width: 100px;
+    }
+    .idc-skill:last-child .idc-text-1{
+        width: auto;
+        max-width: 140px;
     }
     /* *****footer*** */
     .idc-ps {
